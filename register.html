@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>注册页面</title>
+    <style type="text/css">
+        .* {
+            margin: 0;padding: 0;
+        }
+        .reg{
+              margin: 0 auto;
+              font-size: 16px;
+              width: 1100px;
+              text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="reg">
+        <h3>注册账号</h3>
+        <form name="register" action="register.php" method="post">
+            <p>账号：<input type="text" name="userName"></p>
+            <p>密码：<input type="password" name="passWord"></p>
+            <p>确认密码：<input type="password" name="passWord2"></p>
+            <p><input type="submit" name="submit" value="提交"></p>
+        </form>
+    </div>
+</body>
+</html>
